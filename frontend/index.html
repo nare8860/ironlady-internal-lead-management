@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Iron Lady - Internal Lead Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Iron Lady – Internal Lead Tracker</h1>
+
+<h2>Add / Edit Lead</h2>
+<form id="leadForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="phone" placeholder="Phone" required>
+    <input type="text" id="program" placeholder="Interested Program" required>
+    <button type="submit">Save Lead</button>
+</form>
+
+<h2>Leads Dashboard</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Program</th>
+            <th>Status</th>
+            <th>AI Follow-up</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="leadTableBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
