@@ -1,11 +1,9 @@
 # Iron Lady – Internal Lead Management System
 
 ## Project Overview
-This project is an **Internal Business Automation Solution** designed for **:contentReference[oaicite:0]{index=0}** as part of the AI & Technology Intern assignment (Task 2).
+This project is an **Internal Business Automation Solution** built as part of the AI & Technology Intern assignment (Task 2).
 
-Iron Lady receives learner enquiries from multiple sources such as websites, social media platforms, and referrals. Managing these enquiries manually can lead to inefficiencies, missed follow-ups, and increased operational effort.
-
-This application provides a simple, centralized system to manage learner leads effectively.
+Iron Lady receives learner enquiries from multiple sources such as websites, social media platforms, and referrals. Managing these enquiries manually can be time-consuming and inefficient. This application provides a centralized system to manage learner leads effectively.
 
 ---
 
@@ -13,15 +11,15 @@ This application provides a simple, centralized system to manage learner leads e
 - Learner leads are tracked manually using spreadsheets or messages  
 - Follow-ups require repetitive manual effort  
 - No centralized dashboard to track lead status  
-- High chance of missing or delaying responses  
+- High chance of missed or delayed responses  
 
 ---
 
 ## Solution
-An internal **web-based Lead Management System** that helps Iron Lady’s internal operations team to:
-- Track learner enquiries in one place  
-- Update lead status dynamically  
-- Edit and manage learner details  
+A web-based **Internal Lead Management System** that helps the internal operations team to:
+- Manage learner enquiries in one place  
+- Track and update lead status  
+- Edit and delete learner details  
 - Generate AI-assisted follow-up messages  
 
 This solution reduces manual work and improves operational efficiency.
@@ -39,7 +37,7 @@ This solution reduces manual work and improves operational efficiency.
 ---
 
 ## CRUD Implementation
-This application demonstrates a complete CRUD flow:
+The application demonstrates a complete CRUD flow:
 
 - **Create**: Add a new learner lead  
 - **Read**: View all leads in the dashboard  
@@ -49,27 +47,27 @@ This application demonstrates a complete CRUD flow:
 ---
 
 ## AI Usage
-AI is used to generate contextual and professional follow-up messages based on learner details and status.
+AI is used to generate contextual and professional follow-up messages based on learner details and current lead status.
 
-This helps:
+This helps to:
 - Reduce manual typing effort  
-- Improve response consistency  
+- Improve communication consistency  
 - Save time for the operations team  
 
 ---
 
 ## Business Workflow
-1. Learner enquiry received  
-2. Lead added to the system  
-3. Lead status updated during follow-ups  
-4. AI-generated follow-up message sent  
-5. Lead marked as enrolled or removed  
+1. Learner enquiry is received  
+2. Lead is added to the system  
+3. Lead status is updated during follow-ups  
+4. AI generates a follow-up message  
+5. Lead is marked as enrolled or removed  
 
 ---
 
 ## Tech Stack
 - Frontend: HTML, CSS, JavaScript  
-- AI: Simulated AI logic for message generation  
+- AI: Simulated AI logic for follow-up message generation  
 - Storage: In-memory (frontend-based prototype)
 
 ---
@@ -82,14 +80,6 @@ This helps:
 
 ---
 
-## Demo Video
-The demo video demonstrates:
-- Identified business problem  
-- Application workflow  
-- Complete CRUD operations  
-- AI feature usage  
-
----
 
 ## Note
 This project is a functional prototype created to demonstrate business workflow, CRUD functionality, and AI usage as required for the assignment. Backend persistence can be added in a production-level implementation.
